@@ -2,8 +2,8 @@ package de.fleig;
 import java.io.*;
 
 /**
- * Hello world!
- *
+ * Dieses Programm wandelt kleingeschriebene in großgeschriebene
+ * Buchstaben um.
  */
 public class App
 {
@@ -14,9 +14,9 @@ public class App
 
 	BufferedReader r = new BufferedReader(new InputStreamReader(System.in));
         System.out.println( "Beliebige Buchstaben eingeben: " );
-	input = r.readLine();
+	input = r.readLine(); //BufferedReader liest String aus Konsole ein
 
-	System.out.println(input.toUpperCase());
+	System.out.println(input.toUpperCase()); //Umgewandelter String wird ausgegeben
 
 
     }
