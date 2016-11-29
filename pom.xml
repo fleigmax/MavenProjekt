@@ -16,7 +16,7 @@
           <archive>
             <manifest>
               <addClasspath>true</addClasspath>
-              <mainClass>de.fleig.Util</mainClass>
+              <mainClass>de.fleig.Queue</mainClass>
             </manifest>
           </archive>
         </configuration>
